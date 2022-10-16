@@ -1,0 +1,67 @@
+*,
+*::after,
+*::before {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(240, 226, 19);
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* justify-content: space-between; */
+    background-color: aqua;
+    max-width: 400px;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* transform: translate(-50%, -50%); */
+}
+
+.label {
+    position: absolute;
+    /* margin-top: 200px; */
+    /* align-self: center; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin-top: 50vh; */
+    /* margin-top: 200px; */
+    /* border: 2px solid rgb(0, 255, 51); */
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 20px;
+    padding: 0.2rem;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.7);
+}
+
+#for-btn {
+    position: absolute;
+    /* margin: auto;
+    border: 2px solid red;
+    margin-top: 150px; */
+    /* align-self: center; */
+    /* margin: auto; */
+    /* margin-bottom: 200px; */
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(6, 255, 85);
+    color: rgb(255, 253, 253);
+    border-radius: 20px;
+    padding: 0.2rem;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0, 0.2);
+}
+
+#for-btn:hover {
+    background-color: black;
+    border-color: red;
+    border-bottom: 2rem;
+    margin-bottom: 2rem;
+}
